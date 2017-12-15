@@ -1,0 +1,78 @@
+//Retrieve a list of all Person records
+//Request URL: http://localhost:8080/persons/
+//Request body
+{
+    "_embedded": {
+        "persons": [
+            {
+                "created": "2017-12-15T02:21:58.726+0000",
+                "name": "Felicia",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/persons/1"
+                    },
+                    "person": {
+                        "href": "http://localhost:8080/persons/1"
+                    },
+                    "groups": {
+                        "href": "http://localhost:8080/persons/1/groups"
+                    },
+                    "memberships": {
+                        "href": "http://localhost:8080/persons/1/memberships"
+                    }
+                }
+            },
+            {
+                "created": "2017-12-15T02:22:07.202+0000",
+                "name": "Wynter",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/persons/2"
+                    },
+                    "person": {
+                        "href": "http://localhost:8080/persons/2"
+                    },
+                    "groups": {
+                        "href": "http://localhost:8080/persons/2/groups"
+                    },
+                    "memberships": {
+                        "href": "http://localhost:8080/persons/2/memberships"
+                    }
+                }
+            },
+            {
+                "created": "2017-12-15T02:22:14.397+0000",
+                "name": "Estevan",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/persons/3"
+                    },
+                    "person": {
+                        "href": "http://localhost:8080/persons/3"
+                    },
+                    "groups": {
+                        "href": "http://localhost:8080/persons/3/groups"
+                    },
+                    "memberships": {
+                        "href": "http://localhost:8080/persons/3/memberships"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/persons{?page,size,sort}",
+            "templated": true
+        },
+        "profile": {
+            "href": "http://localhost:8080/profile/persons"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 3,
+        "totalPages": 1,
+        "number": 0
+    }
+}

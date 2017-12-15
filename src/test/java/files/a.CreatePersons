@@ -1,0 +1,69 @@
+
+//Create at least three Person records.
+//Request person 1
+//Request URL: http://localhost:8080/persons/1
+//Person 1 body
+{
+    "created": "2017-12-15T02:21:58.726+0000",
+    "name": "Felicia",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/persons/1"
+        },
+        "person": {
+            "href": "http://localhost:8080/persons/1"
+        },
+        "groups": {
+            "href": "http://localhost:8080/persons/1/groups"
+        },
+        "memberships": {
+            "href": "http://localhost:8080/persons/1/memberships"
+        }
+    }
+}
+
+
+
+//Request person
+//Request URL: http://localhost:8080/persons/2
+//Person 2 body
+{
+  "created": "2017-12-15T02:22:07.202+0000",
+  "name": "Faith",
+  "_links": {
+      "self": {
+          "href": "http://localhost:8080/persons/2"
+      },
+      "person": {
+          "href": "http://localhost:8080/persons/2"
+      },
+      "groups": {
+          "href": "http://localhost:8080/persons/2/groups"
+      },
+      "memberships": {
+          "href": "http://localhost:8080/persons/2/memberships"
+      }
+  }
+}
+
+//Request person 3
+//Request URL: http://localhost:8080/persons/3
+//Person 3 body
+{
+    "created": "2017-12-15T02:22:14.397+0000",
+    "name": "Cody",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/persons/3"
+        },
+        "person": {
+            "href": "http://localhost:8080/persons/3"
+        },
+        "groups": {
+            "href": "http://localhost:8080/persons/3/groups"
+        },
+        "memberships": {
+            "href": "http://localhost:8080/persons/3/memberships"
+        }
+    }
+}

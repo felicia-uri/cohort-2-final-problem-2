@@ -1,0 +1,43 @@
+Create Groups with founders
+
+//Group 1 URL: http://localhost:8080/groups/1
+//Group body
+{
+    "created": null,
+    "name": "http://localhost:8080/persons/1/groups",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/groups/1"
+        },
+        "group": {
+            "href": "http://localhost:8080/groups/1"
+        },
+        "person": {
+            "href": "http://localhost:8080/groups/1/person"
+        },
+        "memberships": {
+            "href": "http://localhost:8080/groups/1/memberships"
+        }
+    }
+}
+
+//Group 2 URL: http://localhost:8080/groups/2
+//Group body
+{
+    "created": null,
+    "name": "http://localhost:8080/persons/2/groups",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/groups/2"
+        },
+        "group": {
+            "href": "http://localhost:8080/groups/2"
+        },
+        "person": {
+            "href": "http://localhost:8080/groups/2/person"
+        },
+        "memberships": {
+            "href": "http://localhost:8080/groups/2/memberships"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+//Retrieve Memberships
+//Retrieve Memberships URL: http://localhost:8080/memberships
+{
+    "_embedded": {
+        "memberships": [
+            {
+                "created": "2017-12-15T17:30:20.065+0000",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/memberships/1"
+                    },
+                    "membership": {
+                        "href": "http://localhost:8080/memberships/1"
+                    },
+                    "person": {
+                        "href": "http://localhost:8080/memberships/1/person"
+                    },
+                    "group": {
+                        "href": "http://localhost:8080/memberships/1/group"
+                    }
+                }
+            },
+            {
+                "created": "2017-12-15T17:32:01.032+0000",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/memberships/2"
+                    },
+                    "membership": {
+                        "href": "http://localhost:8080/memberships/2"
+                    },
+                    "person": {
+                        "href": "http://localhost:8080/memberships/2/person"
+                    },
+                    "group": {
+                        "href": "http://localhost:8080/memberships/2/group"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/memberships{?page,size,sort}",
+            "templated": true
+        },
+        "profile": {
+            "href": "http://localhost:8080/profile/memberships"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 2,
+        "totalPages": 1,
+        "number": 0
+    }
+}

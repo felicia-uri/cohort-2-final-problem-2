@@ -1,0 +1,39 @@
+//Create Membership 1
+//Membership Url: "http://localhost:8080/memberships/1"
+{
+    "created": null,
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/memberships/1"
+        },
+        "membership": {
+            "href": "http://localhost:8080/memberships/1"
+        },
+        "person": {
+            "href": "http://localhost:8080/memberships/1/person"
+        },
+        "group": {
+            "href": "http://localhost:8080/memberships/1/group"
+        }
+    }
+}
+
+//Create Membership 2
+//Membership Url: "http://localhost:8080/memberships/2"
+{
+    "created": null,
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/memberships/2"
+        },
+        "membership": {
+            "href": "http://localhost:8080/memberships/2"
+        },
+        "person": {
+            "href": "http://localhost:8080/memberships/2/person"
+        },
+        "group": {
+            "href": "http://localhost:8080/memberships/2/group"
+        }
+    }
+}
